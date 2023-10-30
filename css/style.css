@@ -1,0 +1,128 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+header{
+    background-color: black;
+    padding: 24px 0px;
+}
+
+.container {
+    max-width: 1168px;
+    margin: auto;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 32px;
+    padding-right: 20px;
+}
+
+header nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+header nav li{
+    margin-left: 32px;
+}
+
+header nav li:first-of-type{
+    margin-right: 24px;
+}
+
+header nav li:last-of-type{
+    margin-right: 31px;
+}
+
+header nav li a{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+header nav li:first-of-type a{
+    font-size: 13px;
+}
+
+header nav li:last-of-type a{
+    border-radius: 14px;
+    background: #FFF;
+    color: black;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    padding: 11px 20px;
+
+}
+
+.main_banner{
+    background-image: url("../images/main_image.jpeg");
+    background-size: cover;
+    height: calc(100vh - 83px);
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding-bottom: 71px;
+}
+
+.main_banner .container{
+    max-width: 580px;
+    text-align: center;
+    margin: inherit;
+}
+
+h3{
+    color: #C0C0C0;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 1px;
+}
+
+h1{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 59.4px; /* 110% */
+    margin-bottom: 18px;
+}
+
+p{
+    color: #C0C0C0;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+}
+
+.sunset{
+    background-image: url("../images/sunset.jpeg");
+    background-size: cover;
+    height: calc(100vh - 83px);
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    /*padding-bottom: 71px;*/
+}
