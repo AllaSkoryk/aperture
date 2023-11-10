@@ -375,24 +375,30 @@ p{
     background-color: black;
     background-size: cover;
     min-height: 500px;
-    display: flex;
+    flex-shrink: 0;
+    display: block;
     align-items: center;
+    align-content: space-around;
     justify-content: end;
     position: relative;
-    flex-shrink: 0;
+    margin: auto;
+    padding: 120px 420px;
 }
 
-.black_banner{
+.text_block{
+
+    /*border: solid yellow 5px;*/
     display: flex;
-    width: 1200px;
-    margin: 120px 100px;
+    min-width: 600px;
+    padding: 0 79px 2px 80px;
     flex-direction: column;
+    align-self: center;
     justify-content: center;
     align-items: center;
-    padding: 120px 120px 100px 120px;
+
 }
 
-.black_banner h3{
+.text_block h3{
     color: #FFF;
     text-align: center;
     font-family: poppinsregular, serif;
@@ -400,9 +406,10 @@ p{
     font-style: normal;
     font-weight: 400;
     line-height: 42px;
+    /*width: 229px;*/
 }
 
-.black_banner p{
+.text_block p{
     color: #C0C0C0;
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -416,56 +423,76 @@ p{
     display: flex;
     height: 158px;
     padding: 40px 46px;
-    margin-top: 242px;
     justify-content: center;
     align-items: center;
-    position: absolute;
+    gap: 109px;
+    margin-top: 40px;
+
+
 }
 
 .brands li{
-    display: flex;
-    margin-left: 109px;
+    display: inline-block;
+    text-decoration: none;
+    justify-content: space-around;
+    /*margin-right: 109px;*/
+
 }
 
-.brands li:before{
-    background-image: url("../images/stockholm.png");
-    content: "";
-    display: inline-block;
-    width: 128px;
-    height: 30px;
-}
+/*.brands{*/
+/*    display: flex;*/
+/*    height: 158px;*/
+/*    padding: 40px 46px;*/
+/*    margin-top: 242px;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    position: absolute;*/
+/*}*/
 
-.brands li:nth-child(1):before{
-    background-image: url("../images/hillhayes.png");
-    content: "";
-    display: inline-block;
-    width: 128px;
-    height: 30px;
-}
+/*.brands li{*/
+/*    display: flex;*/
+/*    margin-left: 109px;*/
+/*}*/
 
-.brands li:nth-child(2):before{
-    background-image: url("../images/ricksgransen.png");
-    content: "";
-    display: inline-block;
-    width: 128px;
-    height: 78px;
-}
+/*.brands li:before{*/
+/*    background-image: url("../images/stockholm.png");*/
+/*    content: "";*/
+/*    display: inline-block;*/
+/*    width: 128px;*/
+/*    height: 30px;*/
+/*}*/
 
-.brands li:nth-child(3):before{
-    background-image: url("../images/studio.png");
-    content: "";
-    display: inline-block;
-    width: 128px;
-    height: 20px;
-}
+/*.brands li:nth-child(1):before{*/
+/*    background-image: url("../images/hillhayes.png");*/
+/*    content: "";*/
+/*    display: inline-block;*/
+/*    width: 128px;*/
+/*    height: 30px;*/
+/*}*/
 
-.brands li:nth-child(4):before{
-    background-image: url("../images/chill.png");
-    content: "";
-    display: inline-block;
-    width: 128px;
-    height: 36px;
-}
+/*.brands li:nth-child(2):before{*/
+/*    background-image: url("../images/ricksgransen.png");*/
+/*    content: "";*/
+/*    display: inline-block;*/
+/*    width: 128px;*/
+/*    height: 78px;*/
+/*}*/
+
+/*.brands li:nth-child(3):before{*/
+/*    background-image: url("../images/studio.png");*/
+/*    content: "";*/
+/*    display: inline-block;*/
+/*    width: 128px;*/
+/*    height: 20px;*/
+/*}*/
+
+/*.brands li:nth-child(4):before{*/
+/*    background-image: url("../images/chill.png");*/
+/*    content: "";*/
+/*    display: inline-block;*/
+/*    width: 128px;*/
+/*    height: 36px;*/
+/*}*/
 
 
 
