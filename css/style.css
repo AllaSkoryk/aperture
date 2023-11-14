@@ -269,6 +269,97 @@ p{
 }
 
 
+/*what we do BLOCK*/
+
+.what_we_do{
+    background-color: #181818;
+}
+
+.what_we_do .d_flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.what_we_do .d_flex article{
+    margin-bottom: 16px;
+    max-width: 576px;
+}
+
+.what_we_do .d_flex article img{
+    display: block;
+}
+
+
+
+/*PHOTO BLOCK*/
+
+.photo_block{
+    position: relative;
+    min-height: 540px;
+    background-color: #181818;
+}
+
+.photo_block:after{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-image: url("../images/photos_backgr.png");
+    background-size: cover;
+    content: "";
+    display: block;
+}
+
+.more_text{
+    align-items: center;
+    display: flex;
+    max-width: 1240px;
+    min-height: 540px;
+}
+
+.photo_block .more_text article{
+    max-width: 514px;
+}
+
+
+/*.white_check{*/
+/*    max-width: 152px;*/
+/*    max-height: 42px;*/
+/*    border-radius: 14px;*/
+/*    background: #FFF;*/
+/*}*/
+
+/*.white_check a{*/
+/*    color: #000;*/
+/*    font-family: 'Poppins', sans-serif;*/
+/*    font-size: 16px;*/
+/*    font-style: normal;*/
+/*    font-weight: 400;*/
+/*    line-height: 20px; !* 125% *!*/
+/*    letter-spacing: 0.4px;*/
+/*    text-decoration: none;*/
+/*    !*padding: 9px 6px 13px 10px;*!*/
+/*    !*width: 100px;*!*/
+/*    padding-bottom: 13px;*/
+
+/*}*/
+
+/*.white_check img{*/
+/*    width: 32px;*/
+/*    height: 32px;*/
+/*    padding: 5px 4px 5px 6px;*/
+/*}*/
+
+
+
+
+
+
+
+
+
 
 .leafs_block{
     background-image: url("../images/leafs_block.png");
