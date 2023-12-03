@@ -1,0 +1,23 @@
+@media screen and (max-width: 911px) {
+
+    header nav li{
+        margin-left: 22px;
+    }
+
+    header nav li a{
+
+        font-size: 10px;
+
+    }
+
+    @media screen and (max-width: 772px) {
+        header nav{
+            display: none;
+        }
+    }
+
+    .main_banner .container {
+        padding: 0 15px;
+    }
+
+}
