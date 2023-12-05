@@ -705,23 +705,19 @@ p{
     margin-top: 20px;
 }
 
-.brands{
-    display: flex;
-    height: 158px;
-    padding: 40px 46px;
-    justify-content: center;
-    align-items: center;
-    gap: 109px;
-    margin-top: 40px;
-
-
+.owl-carousel{
+    color: #FFFFFF;
 }
 
-.brands li{
+.brands{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brands a{
     display: inline-block;
-    text-decoration: none;
-    justify-content: space-around;
-    /*margin-right: 109px;*/
+    max-width: 100%;
 
 }
 
