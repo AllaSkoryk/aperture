@@ -667,23 +667,27 @@ p{
     justify-content: end;
     position: relative;
     margin: auto;
-    padding: 120px 420px;
+    /*padding: 120px 420px;*/
+    padding-top: 113px;
+
 }
 
-.text_block{
-
-    /*border: solid yellow 5px;*/
-    display: flex;
-    min-width: 600px;
-    padding: 0 79px 2px 80px;
+.clients_block{
+    display: block;
+    /*width: 100%;*/
+    /*padding: 0 79px 2px 80px;*/
     flex-direction: column;
     align-self: center;
     justify-content: center;
     align-items: center;
+    margin:auto;
+    width: 1200px;
+    padding: 0 16px;
+    /*gap: 40px;*/
 
 }
 
-.text_block h3{
+.clients_block h3{
     color: #FFF;
     text-align: center;
     font-family: poppinsregular, serif;
@@ -694,7 +698,7 @@ p{
     /*width: 229px;*/
 }
 
-.text_block p{
+.clients_block p{
     color: #C0C0C0;
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -705,76 +709,28 @@ p{
     margin-top: 20px;
 }
 
-.owl-carousel{
-    color: #FFFFFF;
-}
-
-.brands{
+.brands_clients{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
-.brands a{
+.brands_clients a{
     display: inline-block;
-    max-width: 100%;
+    padding: 40px 46px;
+    width: 233px;
 
 }
 
-/*.brands{*/
-/*    display: flex;*/
-/*    height: 158px;*/
-/*    padding: 40px 46px;*/
-/*    margin-top: 242px;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*    position: absolute;*/
-/*}*/
+.brands_clients .owl-stage{
+    display: flex;
+    align-items: center;
+}
 
-/*.brands li{*/
-/*    display: flex;*/
-/*    margin-left: 109px;*/
-/*}*/
+.brands_clients.owl-carousel .owl-item{
+    text-align: center;
+}
 
-/*.brands li:before{*/
-/*    background-image: url("../images/stockholm.png");*/
-/*    content: "";*/
-/*    display: inline-block;*/
-/*    width: 128px;*/
-/*    height: 30px;*/
-/*}*/
-
-/*.brands li:nth-child(1):before{*/
-/*    background-image: url("../images/hillhayes.png");*/
-/*    content: "";*/
-/*    display: inline-block;*/
-/*    width: 128px;*/
-/*    height: 30px;*/
-/*}*/
-
-/*.brands li:nth-child(2):before{*/
-/*    background-image: url("../images/ricksgransen.png");*/
-/*    content: "";*/
-/*    display: inline-block;*/
-/*    width: 128px;*/
-/*    height: 78px;*/
-/*}*/
-
-/*.brands li:nth-child(3):before{*/
-/*    background-image: url("../images/studio.png");*/
-/*    content: "";*/
-/*    display: inline-block;*/
-/*    width: 128px;*/
-/*    height: 20px;*/
-/*}*/
-
-/*.brands li:nth-child(4):before{*/
-/*    background-image: url("../images/chill.png");*/
-/*    content: "";*/
-/*    display: inline-block;*/
-/*    width: 128px;*/
-/*    height: 36px;*/
-/*}*/
 
 
 
