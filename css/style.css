@@ -33,6 +33,42 @@ header nav ul{
     list-style: none;
 }
 
+
+/*ВЫПАДАЮЩЕЕ МЕНЮ*/
+
+.drop_down_menu{
+    display: block;
+}
+
+.drop_down_menu{
+    display: block;
+    position: absolute;
+    top: 20px;
+    background-color: red;
+    z-index: 10;
+    opacity: 0;
+    transition: 1s;
+
+}
+
+.drop_down_menu li:last-of-type a{
+    border-radius: 0;
+    background: transparent;
+    padding: 0;
+}
+
+header .drop_down_cell{
+    position: relative;
+
+}
+
+header .drop_down_cell:hover .drop_down_menu{
+    opacity: 1;
+}
+
+
+
+
 header nav li{
     margin-left: 32px;
 }
