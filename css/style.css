@@ -112,14 +112,12 @@ header nav li:last-of-type a{
     background-image: url("../images/time.png");
     width: 16px;
     height: 16px;
-    flex-shrink: 0;
 }
 
 .icons li:nth-child(2):before{
     background-image: url("../images/IMAGEround_logo.png");
     width: 16px;
     height: 16px;
-    flex-shrink: 0;
 }
 
 .icons li:nth-child(3):before{
@@ -272,7 +270,30 @@ p{
 /*what we do BLOCK*/
 
 .what_we_do{
-    background-color: #181818;
+    background: #000;;
+}
+
+.what_we_do h3{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    padding-top: 113px;
+}
+
+.what_we_do h4{
+    color: #C0C0C0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 15px;
+    padding-bottom: 40px;
 }
 
 .what_we_do .d_flex{
@@ -289,6 +310,75 @@ p{
 .what_we_do .d_flex article img{
     display: block;
 }
+
+.d_flex article{
+    position: relative;
+}
+
+.d_flex article div{
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+}
+
+.d_flex article div h4{
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.d_flex article div p{
+    color: #C0C0C0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.d_flex article div a{
+    border-radius: 14px;
+    background: #FFF;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    max-width: 143px;
+    height: 42px;
+    text-align: center;
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    padding: 9px 10px 9px 6px;
+}
+
+
+
+.d_flex article div a:before{
+    display: inline-block;
+    content: "";
+    background-image: url("../images/black_dote.png");
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    margin-right: 12px;
+    margin-bottom: -10px;
+}
+
+
+
+
+
+
 
 
 
@@ -317,11 +407,79 @@ p{
     display: flex;
     max-width: 1240px;
     min-height: 540px;
+
 }
 
 .photo_block .more_text article{
     max-width: 514px;
+    margin-left: 100px;
 }
+
+.photo_block h3{
+    color: #C0C0C0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 6px;
+
+}
+
+.photo_block h2{
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    margin-bottom: 14px;
+}
+
+.photo_block p{
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.more_text a{
+    border-radius: 14px;
+    background: #FFF;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    max-width: 143px;
+    height: 42px;
+    text-align: center;
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    padding: 9px 10px 9px 6px;
+}
+
+.more_text a:before{
+    display: inline-block;
+    content: "";
+    background-image: url("../images/black_dote.png");
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    margin-right: 12px;
+    margin-bottom: -10px;
+}
+
+
 
 
 /*.white_check{*/
